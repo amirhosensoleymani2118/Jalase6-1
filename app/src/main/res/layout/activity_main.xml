@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="@mipmap/ferst_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amirhosein.jalase6_1.MainActivity">
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:paddingTop="145dp"
+        android:paddingLeft="40dp"
+        android:textColor="#1d1d1d"
+        android:text="Hello , your welcome
+         to city App"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        android:drawablePadding="-40dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/dra1"
+        android:text="City Account"
+        android:layout_width="95dp"
+        android:layout_height="55dp" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_marginLeft="42.5dp"
+        android:layout_marginTop="415dp"
+        android:gravity="center"
+        android:drawablePadding="-40dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/dra1"
+        android:text="create Account"
+        android:layout_width="110dp"
+        android:layout_height="45dp" />
+
+
+
+
+</RelativeLayout>
